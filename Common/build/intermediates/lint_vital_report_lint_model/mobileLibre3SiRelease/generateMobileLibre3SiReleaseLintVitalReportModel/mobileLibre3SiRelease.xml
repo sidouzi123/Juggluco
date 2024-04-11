@@ -1,0 +1,33 @@
+<variant
+    name="mobileLibre3SiRelease"
+    package="tk.glucodata"
+    minSdkVersion="26"
+    targetSdkVersion="33"
+    shrinking="true"
+    mergedManifest="build/intermediates/merged_manifest/mobileLibre3SiRelease/AndroidManifest.xml"
+    manifestMergeReport="build/outputs/logs/manifest-merger-mobile-libre3-si-release-report.txt"
+    proguardFiles="build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.2.0:proguard-rules.pro:proguard-rules.my:proguard-rules.log"
+    partialResultsDir="build/intermediates/lint_vital_partial_results/mobileLibre3SiRelease/out">
+  <buildFeatures
+      viewBinding="true"
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml:src/mobile/AndroidManifest.xml:src/si/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/si/java:src/libre3/java:src/mobile/java:src/mobileLibre3Si/java:src/release/java:src/mobileLibre3SiRelease/java:src/main/kotlin:src/si/kotlin:src/libre3/kotlin:src/mobile/kotlin:src/mobileLibre3Si/kotlin:src/release/kotlin:src/mobileLibre3SiRelease/kotlin"
+        resDirectories="src/main/res:src/si/res:src/libre3/res:src/mobile/res:src/mobileLibre3Si/res:src/release/res:src/mobileLibre3SiRelease/res"
+        assetsDirectories="src/main/assets:src/si/assets:src/libre3/assets:src/mobile/assets:src/mobileLibre3Si/assets:src/release/assets:src/mobileLibre3SiRelease/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="build/intermediates/javac/mobileLibre3SiRelease/classes:build/tmp/kotlin-classes/mobileLibre3SiRelease:build/kotlinToolingMetadata:build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/mobileLibre3SiRelease/R.jar"
+      type="MAIN"
+      applicationId="tk.glucodata"
+      generatedSourceFolders="build/generated/ap_generated_sources/mobileLibre3SiRelease/out:build/generated/aidl_source_output_dir/mobileLibre3SiRelease/out:build/generated/source/buildConfig/mobileLibre3Si/release:build/generated/data_binding_base_class_source_out/mobileLibre3SiRelease/out"
+      generatedResourceFolders="build/generated/res/resValues/mobileLibre3Si/release"
+      desugaredMethodsFiles="/Users/pangwei/.gradle/caches/transforms-3/8b4572ddddadc87393c749754e478c31/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

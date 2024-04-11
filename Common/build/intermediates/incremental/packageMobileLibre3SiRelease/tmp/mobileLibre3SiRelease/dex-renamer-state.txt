@@ -1,0 +1,4 @@
+#Thu Apr 11 21:00:46 CST 2024
+base.0=/Users/pangwei/AndroidStudioProjects/Juggluco/Common/build/intermediates/dex/mobileLibre3SiRelease/minifyMobileLibre3SiReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

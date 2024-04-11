@@ -1,0 +1,263 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/pangwei/AndroidStudioProjects/Juggluco/Common/build/intermediates/cxx/RelWithDebInfo/474d3z6b/obj/x86/libnative.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"target_link_libraries",
+			"add_definitions",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DAPPID=\\\"tk.glucodata\\\"    -DAPPVERSION=\\\"null\\\"  -DSIBIONICS=1    -DAPPVERSION=\\\"null\\\"  -DLIBRE3=1  -std=c++2b -DRELEASEID=1 -DRELEASE=1 -DNORAWSTREAM=1 -DRELEASEDIR=1 -DNOLOG=1    -g -Wall -Wno-sign-compare -fvisibility=hidden  -std=c++2b -fno-rtti -fexceptions  -DALWAYSPATH=1   -O3 -DNDEBUG  -fPIE"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ANDROID_STL=c++_static"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ANDROID__APP"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "DYNLINK"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "NOTIMEOUT"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_MEAL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/share"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/LibAscon/inc"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/pangwei/Library/Android/sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "g::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "libnative.so::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DAPPID=\\\"tk.glucodata\\\"    -DAPPVERSION=\\\"null\\\"  -DSIBIONICS=1    -DAPPVERSION=\\\"null\\\"  -DLIBRE3=1  -std=c++2b -DRELEASEID=1 -DRELEASE=1 -DNORAWSTREAM=1 -DRELEASEDIR=1 -DNOLOG=1    -g -Wall -Wno-sign-compare -fvisibility=hidden  -std=c++2b -fno-rtti -fexceptions  -DALWAYSPATH=1   -O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lGLESv3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-landroid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lEGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/Users/pangwei/AndroidStudioProjects/Juggluco/Common/build/intermediates/cxx/RelWithDebInfo/474d3z6b/obj/x86/libg.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lc++_static",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lGLESv3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-landroid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lEGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lz",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/Users/pangwei/Library/Android/sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+		}
+	},
+	"name" : "libnative.so",
+	"nameOnDisk" : "libnative.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "abbotttest.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,4 @@
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/.cxx/Debug/2220573r/x86/CMakeFiles/g.dir
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/.cxx/Debug/2220573r/x86/CMakeFiles/libnative.so.dir
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/.cxx/Debug/2220573r/x86/CMakeFiles/edit_cache.dir
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/.cxx/Debug/2220573r/x86/CMakeFiles/rebuild_cache.dir

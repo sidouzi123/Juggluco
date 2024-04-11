@@ -1,0 +1,2 @@
+#- File Locator -
+listingFile=../../apk/mobileLibre3Si/release/output-metadata.json

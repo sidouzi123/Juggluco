@@ -1,0 +1,5 @@
+/Users/pangwei/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/pangwei/AndroidStudioProjects/Juggluco/Common/.cxx/RelWithDebInfo/474d3z6b/arm64-v8a \
+  g \
+  libnative.so

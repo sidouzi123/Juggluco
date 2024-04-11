@@ -1,0 +1,35 @@
+{
+  "buildFiles": [
+    "/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/pangwei/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/pangwei/AndroidStudioProjects/Juggluco/Common/.cxx/Debug/2220573r/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/pangwei/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/pangwei/AndroidStudioProjects/Juggluco/Common/.cxx/Debug/2220573r/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "g::@6890427a1f51a3e7e1df": {
+      "artifactName": "g",
+      "abi": "x86",
+      "output": "/Users/pangwei/AndroidStudioProjects/Juggluco/Common/build/intermediates/cxx/Debug/2220573r/obj/x86/libg.so",
+      "runtimeFiles": []
+    },
+    "libnative.so::@6890427a1f51a3e7e1df": {
+      "artifactName": "libnative.so",
+      "abi": "x86",
+      "output": "/Users/pangwei/AndroidStudioProjects/Juggluco/Common/build/intermediates/cxx/Debug/2220573r/obj/x86/libnative.so",
+      "runtimeFiles": [
+        "/Users/pangwei/AndroidStudioProjects/Juggluco/Common/build/intermediates/cxx/Debug/2220573r/obj/x86/libg.so"
+      ]
+    }
+  }
+}

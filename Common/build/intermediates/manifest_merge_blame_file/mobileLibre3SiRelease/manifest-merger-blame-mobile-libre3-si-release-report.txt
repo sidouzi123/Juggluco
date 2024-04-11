@@ -1,0 +1,670 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="tk.glucodata"
+4    android:versionCode="458"
+5    android:versionName="8.0.0-sibionics" >
+6
+7    <uses-sdk
+7-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:5:5-71
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="33" />
+10
+11    <!-- s/^[	 ]*\(.*\)[	 ]*$/<uses-permission android:name="\1"\/>/g -->
+12    <uses-permission android:name="android.permission.health.WRITE_BLOOD_GLUCOSE" />
+12-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:8:1-80
+12-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:8:18-78
+13
+14    <uses-feature
+14-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:9:1-90
+15        android:name="android.hardware.type.automotive"
+15-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:9:15-62
+16        android:required="false" />
+16-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:9:63-87
+17
+18    <queries>
+18-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:43:1-83
+19        <package android:name="com.google.android.apps.healthdata" />
+19-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:43:11-72
+19-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:43:20-69
+20
+21        <intent>
+21-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:15:9-17:18
+22            <action android:name="android.intent.action.TTS_SERVICE" />
+22-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:16:13-72
+22-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:16:21-69
+23        </intent>
+24        <intent>
+24-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:48:15-94
+25            <action android:name="android.nfc.action.TECH_DISCOVERED" />
+25-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:94:17-77
+25-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:94:25-74
+26        </intent>
+27        <intent>
+27-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:50:15-97
+28            <action android:name="com.eveningoutpost.dexdrip.BgEstimate" />
+28-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:50:24-87
+28-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:50:32-84
+29        </intent>
+30        <intent>
+30-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:52:15-76
+31            <action android:name="glucodata.Minute" />
+31-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:52:24-66
+31-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:52:32-63
+32        </intent>
+33    </queries>
+34    <queries>
+34-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:43:1-83
+35        <intent>
+35-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:15:9-17:18
+36            <action android:name="android.intent.action.TTS_SERVICE" />
+36-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:16:13-72
+36-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:16:21-69
+37        </intent>
+38    </queries>
+39    <queries>
+39-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:43:1-83
+40        <intent>
+40-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:20:9-22:18
+41            <action android:name="com.librelink.app.ThirdPartyIntegration.GLUCOSE_READING" />
+41-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:21:13-94
+41-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:21:21-91
+42        </intent>
+43    </queries>
+44    <queries>
+44-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:43:1-83
+45        <intent>
+45-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:25:9-27:18
+46            <action android:name="com.librelink.app.ThirdPartyIntegration.SENSOR_ACTIVATE" />
+46-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:26:13-94
+46-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:26:21-91
+47        </intent>
+48    </queries>
+49    <queries>
+49-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:43:1-83
+50        <package android:name="com.garmin.android.apps.connectmobile" />
+50-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:30:9-73
+50-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:30:18-70
+51    </queries>
+52
+53    <supports-screens
+53-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:34:5-40:40
+54        android:anyDensity="true"
+54-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:35:9-34
+55        android:largeScreens="true"
+55-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:36:9-36
+56        android:normalScreens="true"
+56-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:37:9-37
+57        android:resizeable="true"
+57-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:38:9-34
+58        android:smallScreens="true"
+58-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:39:9-36
+59        android:xlargeScreens="true" />
+59-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:40:9-37
+60
+61    <uses-permission android:name="android.permission.FLASHLIGHT" />
+61-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:42:5-69
+61-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:42:22-66
+62
+63    <uses-feature
+63-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:44:5-91
+64        android:name="android.hardware.camera.flash"
+64-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:44:19-63
+65        android:required="false" />
+65-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:44:64-88
+66
+67    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+67-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:3:5-78
+67-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:3:22-75
+68    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+68-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:4:5-85
+68-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:4:22-82
+69    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+69-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:5:5-77
+69-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:5:22-74
+70    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+70-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:6:5-77
+70-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:6:22-74
+71    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" /> <!-- s/^[	 ]*\(.*\)[	 ]*$/<uses-permission android:name="\1"\/>/g -->
+71-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:7:5-94
+71-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:7:22-91
+72    <uses-feature
+72-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:9:5-82
+73        android:name="android.hardware.nfc"
+73-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:9:19-54
+74        android:required="false" />
+74-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:9:55-79
+75    <uses-feature
+75-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:10:5-78
+76        android:glEsVersion="0x00020000"
+76-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:10:19-51
+77        android:required="true" />
+77-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:10:52-75
+78    <uses-feature
+78-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:11:5-91
+79        android:name="android.hardware.bluetooth_le"
+79-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:11:19-63
+80        android:required="false" />
+80-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:11:64-88
+81
+82    <uses-permission
+82-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:13:6-107
+83        android:name="android.permission.SCHEDULE_EXACT_ALARM"
+83-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:13:23-77
+84        android:maxSdkVersion="32" />
+84-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:13:78-104
+85    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+85-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:14:5-75
+85-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:14:22-71
+86    <uses-permission android:name="android.permission.WAKE_LOCK" />
+86-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:15:5-68
+86-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:15:22-65
+87    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+87-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:16:5-81
+87-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:16:22-78
+88    <uses-permission android:name="android.permission.NFC" />
+88-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:17:5-62
+88-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:17:22-59
+89    <uses-permission android:name="android.permission.INTERNET" />
+89-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:18:5-67
+89-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:18:22-64
+90    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+90-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:19:5-79
+90-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:19:22-76
+91    <uses-permission android:name="android.permission.VIBRATE" />
+91-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:20:5-66
+91-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:20:22-63
+92    <uses-permission
+92-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:21:5-108
+93        android:name="android.permission.ACCESS_COARSE_LOCATION"
+93-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:21:22-78
+94        android:maxSdkVersion="30" />
+94-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:21:79-105
+95    <uses-permission
+95-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:22:5-106
+96        android:name="android.permission.ACCESS_FINE_LOCATION"
+96-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:22:22-76
+97        android:maxSdkVersion="30" />
+97-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:22:77-103
+98    <uses-permission android:name="android.permission.BLUETOOTH" />
+98-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:23:5-68
+98-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:23:22-65
+99    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+99-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:24:5-74
+99-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:24:22-71
+100    <!--
+101 Needed only if your app looks for Bluetooth devices.
+102         You must add an attribute to this permission, or declare the
+103         ACCESS_FINE_LOCATION permission, depending on the results when you
+104         check location usage in your app.
+105    -->
+106    <uses-permission
+106-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:31:5-120
+107        android:name="android.permission.BLUETOOTH_SCAN"
+107-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:31:22-70
+108        android:usesPermissionFlags="neverForLocation" />
+108-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:31:71-117
+109    <!--
+110 Needed only if your app makes the device discoverable to Bluetooth
+111         devices.
+112    -->
+113    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+113-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:36:5-78
+113-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:36:22-75
+114    <!--
+115 Needed only if your app communicates with already-paired Bluetooth
+116         devices.
+117    -->
+118    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+118-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:41:5-76
+118-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:41:22-73
+119
+120    <uses-permission-sdk-23 android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+120-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:54:5-102
+120-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:54:29-99
+121
+122    <permission
+122-->[androidx.core:core:1.12.0] /Users/pangwei/.gradle/caches/transforms-3/e021c975a59b400356a02cb3f5012428/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+123        android:name="tk.glucodata.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+123-->[androidx.core:core:1.12.0] /Users/pangwei/.gradle/caches/transforms-3/e021c975a59b400356a02cb3f5012428/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+124        android:protectionLevel="signature" />
+124-->[androidx.core:core:1.12.0] /Users/pangwei/.gradle/caches/transforms-3/e021c975a59b400356a02cb3f5012428/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+125
+126    <uses-permission android:name="tk.glucodata.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+126-->[androidx.core:core:1.12.0] /Users/pangwei/.gradle/caches/transforms-3/e021c975a59b400356a02cb3f5012428/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+126-->[androidx.core:core:1.12.0] /Users/pangwei/.gradle/caches/transforms-3/e021c975a59b400356a02cb3f5012428/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+127
+128    <application
+128-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:58:5-145:19
+129        android:name="tk.glucodata.Applic"
+129-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:59:9-31
+130        android:allowBackup="false"
+130-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:60:9-36
+131        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+131-->[androidx.core:core:1.12.0] /Users/pangwei/.gradle/caches/transforms-3/e021c975a59b400356a02cb3f5012428/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+132        android:debuggable="true"
+132-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:61:9-34
+133        android:extractNativeLibs="true"
+133-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:62:9-41
+134        android:icon="@mipmap/ic_launcher"
+134-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:63:9-43
+135        android:label="@string/app_name"
+135-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:64:9-41
+136        android:localeConfig="@xml/locales_config"
+136-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:65:9-51
+137        android:persistent="true"
+137-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:66:9-34
+138        android:testOnly="true"
+139        android:theme="@style/AppTheme"
+139-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:50:9-40
+140        android:usesCleartextTraffic="true" >
+140-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:67:9-44
+141        <receiver
+141-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:51:9-61:20
+142            android:name="tk.glucodata.GlucoseWidget"
+142-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:52:13-42
+143            android:exported="false" >
+143-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:53:13-37
+144            <intent-filter>
+144-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:54:13-56:29
+145                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+145-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:55:17-84
+145-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:55:25-81
+146            </intent-filter>
+147
+148            <meta-data
+148-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:58:13-60:63
+149                android:name="android.appwidget.provider"
+149-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:59:17-58
+150                android:resource="@xml/glucose_widget_info" />
+150-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:60:17-60
+151        </receiver>
+152
+153        <activity
+153-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:69:9-85:20
+154            android:name="tk.glucodata.MainActivity"
+154-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:71:13-41
+155            android:allowEmbedded="true"
+155-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:65:13-41
+156            android:autoRemoveFromRecents="false"
+156-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:73:13-50
+157            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|uiMode|fontScale|locale"
+157-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:72:13-111
+158            android:excludeFromRecents="false"
+158-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:74:13-47
+159            android:exported="true"
+159-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:70:13-36
+160            android:label="@string/app_name"
+160-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:75:13-45
+161            android:launchMode="singleTask"
+161-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:76:13-44
+162            android:resizeableActivity="true"
+162-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:69:13-46
+163            android:screenOrientation="reverseLandscape"
+163-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:70:13-57
+164            android:stateNotNeeded="true"
+164-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:77:13-42
+165            android:windowSoftInputMode="stateHidden|adjustPan" >
+165-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:78:13-64
+166            <intent-filter>
+166-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:72:13-74:29
+167                <action android:name="androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE" />
+167-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:73:17-92
+167-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:73:25-89
+168            </intent-filter>
+169            <intent-filter>
+169-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:79:13-83:29
+170                <action android:name="android.intent.action.MAIN" />
+170-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:80:17-69
+170-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:80:25-66
+171
+172                <category android:name="android.intent.category.LAUNCHER" />
+172-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:81:17-77
+172-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:81:27-74
+173                <category android:name="android.intent.category.DEFAULT" />
+173-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:82:17-76
+173-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:82:27-73
+174            </intent-filter>
+175
+176            <meta-data
+176-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:84:13-116
+177                android:name="android.nfc.action.TECH_DISCOVERED"
+177-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:84:24-73
+178                android:resource="@xml/nfc_tech_filter" />
+178-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:84:74-113
+179        </activity>
+180
+181        <activity-alias
+181-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:87:9-102:26
+182            android:name="tk.glucodata.glucodata"
+182-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:88:13-38
+183            android:enabled="true"
+183-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:89:13-35
+184            android:exported="true"
+184-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:90:13-36
+185            android:label="@string/app_name"
+185-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:91:13-45
+186            android:targetActivity="tk.glucodata.MainActivity" >
+186-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:92:13-51
+187            <intent-filter>
+187-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:93:13-97:29
+188                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+188-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:94:17-77
+188-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:94:25-74
+189
+190                <category android:name="android.intent.category.DEFAULT" />
+190-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:82:17-76
+190-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:82:27-73
+191            </intent-filter>
+192
+193            <meta-data
+193-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:84:13-116
+194                android:name="android.nfc.action.TECH_DISCOVERED"
+194-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:84:24-73
+195                android:resource="@xml/nfc_tech_filter" />
+195-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:84:74-113
+196        </activity-alias>
+197        <activity-alias
+197-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:77:3-86:20
+198            android:name="tk.glucodata.ViewPermissionUsageActivity"
+198-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:78:7-49
+199            android:exported="true"
+199-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:79:7-30
+200            android:permission="android.permission.START_VIEW_PERMISSION_USAGE"
+200-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:81:7-74
+201            android:targetActivity="tk.glucodata.MainActivity" >
+201-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:80:7-45
+202            <intent-filter>
+202-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:82:5-85:21
+203                <action android:name="android.intent.action.VIEW_PERMISSION_USAGE" />
+203-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:83:7-76
+203-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:83:15-73
+204
+205                <category android:name="android.intent.category.HEALTH_PERMISSIONS" />
+205-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:84:7-77
+205-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:84:17-74
+206            </intent-filter>
+207        </activity-alias>
+208
+209        <service
+209-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:88:9-99:19
+210            android:name="tk.glucodata.MessageReceiver"
+210-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:89:13-44
+211            android:exported="true" >
+211-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:90:13-36
+212            <intent-filter>
+212-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:91:13-98:29
+213                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+213-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:92:17-91
+213-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:92:25-88
+214
+215                <data
+215-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:17-91
+216                    android:host="*"
+216-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:23-39
+217                    android:pathPrefix="/data"
+217-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:40-66
+218                    android:scheme="wear" />
+218-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:67-88
+219                <data
+219-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:17-91
+220                    android:host="*"
+220-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:23-39
+221                    android:pathPrefix="/messages"
+221-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:40-66
+222                    android:scheme="wear" />
+222-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:67-88
+223                <data
+223-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:17-91
+224                    android:host="*"
+224-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:23-39
+225                    android:pathPrefix="/netinfo"
+225-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:40-66
+226                    android:scheme="wear" />
+226-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:67-88
+227                <data
+227-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:17-91
+228                    android:host="*"
+228-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:23-39
+229                    android:pathPrefix="/wake"
+229-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:40-66
+230                    android:scheme="wear" />
+230-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:67-88
+231                <data
+231-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:17-91
+232                    android:host="*"
+232-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:23-39
+233                    android:pathPrefix="/wakestream"
+233-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:40-66
+234                    android:scheme="wear" />
+234-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/mobile/AndroidManifest.xml:93:67-88
+235            </intent-filter>
+236        </service>
+237
+238        <meta-data
+238-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/si/AndroidManifest.xml:6:5-8:35
+239            android:name="com.google.mlkit.vision.DEPENDENCIES"
+239-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/si/AndroidManifest.xml:7:7-58
+240            android:value="barcode_ui" />
+240-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/si/AndroidManifest.xml:8:7-33
+241
+242        <receiver
+242-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:103:9-112:20
+243            android:name="tk.glucodata.NumAlarm"
+243-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:104:13-37
+244            android:enabled="true"
+244-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:105:13-35
+245            android:exported="true" >
+245-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:106:13-36
+246            <intent-filter>
+246-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:107:13-111:29
+247                <action android:name="android.intent.action.BOOT_COMPLETED" />
+247-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:108:17-79
+247-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:108:25-76
+248                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+248-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:109:17-82
+248-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:109:25-79
+249
+250                <category android:name="android.intent.category.DEFAULT" />
+250-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:82:17-76
+250-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:82:27-73
+251            </intent-filter>
+252        </receiver>
+253        <receiver
+253-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:113:9-116:38
+254            android:name="tk.glucodata.DeleteReceiver"
+254-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:114:13-43
+255            android:enabled="true"
+255-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:115:13-35
+256            android:exported="true" />
+256-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:116:13-36
+257        <receiver
+257-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:117:9-120:38
+258            android:name="tk.glucodata.LossOfSensorAlarm"
+258-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:118:13-46
+259            android:enabled="true"
+259-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:119:13-35
+260            android:exported="true" />
+260-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:120:13-36
+261        <receiver
+261-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:121:9-124:38
+262            android:name="tk.glucodata.Maintenance"
+262-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:122:13-40
+263            android:enabled="true"
+263-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:123:13-35
+264            android:exported="true" />
+264-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:124:13-36
+265
+266        <service
+266-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:126:9-130:63
+267            android:name="tk.glucodata.keeprunning"
+267-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:127:13-40
+268            android:enabled="true"
+268-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:128:13-35
+269            android:exported="true"
+269-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:129:13-36
+270            android:foregroundServiceType="connectedDevice" />
+270-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:130:13-60
+271        <service
+271-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:137:9-144:19
+272            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+272-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:138:13-82
+273            android:enabled="false"
+273-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:139:13-36
+274            android:exported="false" >
+274-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:140:13-37
+275            <meta-data
+275-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:141:13-143:40
+276                android:name="autoStoreLocales"
+276-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:142:17-48
+277                android:value="true" />
+277-->/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/AndroidManifest.xml:143:17-37
+278        </service>
+279        <service
+279-->[androidx.health.connect:connect-client:1.1.0-alpha07] /Users/pangwei/.gradle/caches/transforms-3/e95f3a7aef5ad0e4baf60a9e850019b0/transformed/jetified-connect-client-1.1.0-alpha07/AndroidManifest.xml:24:9-32:19
+280            android:name="androidx.health.platform.client.impl.sdkservice.HealthDataSdkService"
+280-->[androidx.health.connect:connect-client:1.1.0-alpha07] /Users/pangwei/.gradle/caches/transforms-3/e95f3a7aef5ad0e4baf60a9e850019b0/transformed/jetified-connect-client-1.1.0-alpha07/AndroidManifest.xml:25:13-96
+281            android:enabled="true"
+281-->[androidx.health.connect:connect-client:1.1.0-alpha07] /Users/pangwei/.gradle/caches/transforms-3/e95f3a7aef5ad0e4baf60a9e850019b0/transformed/jetified-connect-client-1.1.0-alpha07/AndroidManifest.xml:26:13-35
+282            android:exported="true" >
+282-->[androidx.health.connect:connect-client:1.1.0-alpha07] /Users/pangwei/.gradle/caches/transforms-3/e95f3a7aef5ad0e4baf60a9e850019b0/transformed/jetified-connect-client-1.1.0-alpha07/AndroidManifest.xml:27:13-36
+283            <intent-filter>
+283-->[androidx.health.connect:connect-client:1.1.0-alpha07] /Users/pangwei/.gradle/caches/transforms-3/e95f3a7aef5ad0e4baf60a9e850019b0/transformed/jetified-connect-client-1.1.0-alpha07/AndroidManifest.xml:29:13-31:29
+284                <action android:name="androidx.health.platform.client.ACTION_BIND_SDK_SERVICE" />
+284-->[androidx.health.connect:connect-client:1.1.0-alpha07] /Users/pangwei/.gradle/caches/transforms-3/e95f3a7aef5ad0e4baf60a9e850019b0/transformed/jetified-connect-client-1.1.0-alpha07/AndroidManifest.xml:30:17-98
+284-->[androidx.health.connect:connect-client:1.1.0-alpha07] /Users/pangwei/.gradle/caches/transforms-3/e95f3a7aef5ad0e4baf60a9e850019b0/transformed/jetified-connect-client-1.1.0-alpha07/AndroidManifest.xml:30:25-95
+285            </intent-filter>
+286        </service>
+287        <!--
+288        This activity is an invisible delegate activity to start scanner activity
+289        and receive result, so it's unnecessary to support screen orientation and
+290        we can avoid any side effect from activity recreation in any case.
+291        -->
+292        <activity
+292-->[com.google.android.gms:play-services-code-scanner:16.1.0] /Users/pangwei/.gradle/caches/transforms-3/95e6a08fe7576078103322e73a896cbe/transformed/jetified-play-services-code-scanner-16.1.0/AndroidManifest.xml:15:9-20:20
+293            android:name="com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity"
+293-->[com.google.android.gms:play-services-code-scanner:16.1.0] /Users/pangwei/.gradle/caches/transforms-3/95e6a08fe7576078103322e73a896cbe/transformed/jetified-play-services-code-scanner-16.1.0/AndroidManifest.xml:16:13-107
+294            android:exported="false"
+294-->[com.google.android.gms:play-services-code-scanner:16.1.0] /Users/pangwei/.gradle/caches/transforms-3/95e6a08fe7576078103322e73a896cbe/transformed/jetified-play-services-code-scanner-16.1.0/AndroidManifest.xml:17:13-37
+295            android:screenOrientation="portrait" >
+295-->[com.google.android.gms:play-services-code-scanner:16.1.0] /Users/pangwei/.gradle/caches/transforms-3/95e6a08fe7576078103322e73a896cbe/transformed/jetified-play-services-code-scanner-16.1.0/AndroidManifest.xml:18:13-49
+296        </activity>
+297
+298        <service
+298-->[com.google.mlkit:vision-common:17.0.0] /Users/pangwei/.gradle/caches/transforms-3/563ad9c3fe7bf41fb39cef1b8852f13e/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:9:9-15:19
+299            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+299-->[com.google.mlkit:vision-common:17.0.0] /Users/pangwei/.gradle/caches/transforms-3/563ad9c3fe7bf41fb39cef1b8852f13e/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:10:13-91
+300            android:directBootAware="true"
+300-->[com.google.mlkit:common:18.9.0] /Users/pangwei/.gradle/caches/transforms-3/47fd1507255066e294fd3bdfab551a7b/transformed/jetified-common-18.9.0/AndroidManifest.xml:17:13-43
+301            android:exported="false" >
+301-->[com.google.mlkit:vision-common:17.0.0] /Users/pangwei/.gradle/caches/transforms-3/563ad9c3fe7bf41fb39cef1b8852f13e/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:11:13-37
+302            <meta-data
+302-->[com.google.mlkit:vision-common:17.0.0] /Users/pangwei/.gradle/caches/transforms-3/563ad9c3fe7bf41fb39cef1b8852f13e/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:12:13-14:85
+303                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+303-->[com.google.mlkit:vision-common:17.0.0] /Users/pangwei/.gradle/caches/transforms-3/563ad9c3fe7bf41fb39cef1b8852f13e/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:13:17-124
+304                android:value="com.google.firebase.components.ComponentRegistrar" />
+304-->[com.google.mlkit:vision-common:17.0.0] /Users/pangwei/.gradle/caches/transforms-3/563ad9c3fe7bf41fb39cef1b8852f13e/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:14:17-82
+305            <meta-data
+305-->[com.google.mlkit:common:18.9.0] /Users/pangwei/.gradle/caches/transforms-3/47fd1507255066e294fd3bdfab551a7b/transformed/jetified-common-18.9.0/AndroidManifest.xml:20:13-22:85
+306                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+306-->[com.google.mlkit:common:18.9.0] /Users/pangwei/.gradle/caches/transforms-3/47fd1507255066e294fd3bdfab551a7b/transformed/jetified-common-18.9.0/AndroidManifest.xml:21:17-120
+307                android:value="com.google.firebase.components.ComponentRegistrar" />
+307-->[com.google.mlkit:common:18.9.0] /Users/pangwei/.gradle/caches/transforms-3/47fd1507255066e294fd3bdfab551a7b/transformed/jetified-common-18.9.0/AndroidManifest.xml:22:17-82
+308        </service>
+309
+310        <provider
+310-->[com.google.mlkit:common:18.9.0] /Users/pangwei/.gradle/caches/transforms-3/47fd1507255066e294fd3bdfab551a7b/transformed/jetified-common-18.9.0/AndroidManifest.xml:9:9-13:38
+311            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+311-->[com.google.mlkit:common:18.9.0] /Users/pangwei/.gradle/caches/transforms-3/47fd1507255066e294fd3bdfab551a7b/transformed/jetified-common-18.9.0/AndroidManifest.xml:10:13-78
+312            android:authorities="tk.glucodata.mlkitinitprovider"
+312-->[com.google.mlkit:common:18.9.0] /Users/pangwei/.gradle/caches/transforms-3/47fd1507255066e294fd3bdfab551a7b/transformed/jetified-common-18.9.0/AndroidManifest.xml:11:13-69
+313            android:exported="false"
+313-->[com.google.mlkit:common:18.9.0] /Users/pangwei/.gradle/caches/transforms-3/47fd1507255066e294fd3bdfab551a7b/transformed/jetified-common-18.9.0/AndroidManifest.xml:12:13-37
+314            android:initOrder="99" />
+314-->[com.google.mlkit:common:18.9.0] /Users/pangwei/.gradle/caches/transforms-3/47fd1507255066e294fd3bdfab551a7b/transformed/jetified-common-18.9.0/AndroidManifest.xml:13:13-35
+315
+316        <activity
+316-->[com.google.android.gms:play-services-base:18.3.0] /Users/pangwei/.gradle/caches/transforms-3/448383ca994b85e662d68e8e2374e00b/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+317            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+317-->[com.google.android.gms:play-services-base:18.3.0] /Users/pangwei/.gradle/caches/transforms-3/448383ca994b85e662d68e8e2374e00b/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+318            android:exported="false"
+318-->[com.google.android.gms:play-services-base:18.3.0] /Users/pangwei/.gradle/caches/transforms-3/448383ca994b85e662d68e8e2374e00b/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+319            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+319-->[com.google.android.gms:play-services-base:18.3.0] /Users/pangwei/.gradle/caches/transforms-3/448383ca994b85e662d68e8e2374e00b/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+320
+321        <meta-data
+321-->[com.google.android.gms:play-services-basement:18.3.0] /Users/pangwei/.gradle/caches/transforms-3/0776a656f9c2d187b9b21868298e9394/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+322            android:name="com.google.android.gms.version"
+322-->[com.google.android.gms:play-services-basement:18.3.0] /Users/pangwei/.gradle/caches/transforms-3/0776a656f9c2d187b9b21868298e9394/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+323            android:value="@integer/google_play_services_version" />
+323-->[com.google.android.gms:play-services-basement:18.3.0] /Users/pangwei/.gradle/caches/transforms-3/0776a656f9c2d187b9b21868298e9394/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+324
+325        <receiver
+325-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+326            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+326-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+327            android:directBootAware="false"
+327-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+328            android:enabled="true"
+328-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+329            android:exported="true"
+329-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+330            android:permission="android.permission.DUMP" >
+330-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+331            <intent-filter>
+331-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+332                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+332-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+332-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+333            </intent-filter>
+334            <intent-filter>
+334-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+335                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+335-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+335-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+336            </intent-filter>
+337            <intent-filter>
+337-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+338                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+338-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+338-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+339            </intent-filter>
+340            <intent-filter>
+340-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+341                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+341-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+341-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pangwei/.gradle/caches/transforms-3/eace74c6069cea0caa7be1590d62c278/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+342            </intent-filter>
+343        </receiver>
+344
+345        <service
+345-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pangwei/.gradle/caches/transforms-3/95d236dfd0f249f7e3118642e458313a/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+346            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+346-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pangwei/.gradle/caches/transforms-3/95d236dfd0f249f7e3118642e458313a/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+347            android:exported="false" >
+347-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pangwei/.gradle/caches/transforms-3/95d236dfd0f249f7e3118642e458313a/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+348            <meta-data
+348-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pangwei/.gradle/caches/transforms-3/95d236dfd0f249f7e3118642e458313a/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+349                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+349-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pangwei/.gradle/caches/transforms-3/95d236dfd0f249f7e3118642e458313a/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+350                android:value="cct" />
+350-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pangwei/.gradle/caches/transforms-3/95d236dfd0f249f7e3118642e458313a/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+351        </service>
+352        <service
+352-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pangwei/.gradle/caches/transforms-3/e8752a27c0ea0af76d9f15f3e6321c34/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+353            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+353-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pangwei/.gradle/caches/transforms-3/e8752a27c0ea0af76d9f15f3e6321c34/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+354            android:exported="false"
+354-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pangwei/.gradle/caches/transforms-3/e8752a27c0ea0af76d9f15f3e6321c34/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+355            android:permission="android.permission.BIND_JOB_SERVICE" >
+355-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pangwei/.gradle/caches/transforms-3/e8752a27c0ea0af76d9f15f3e6321c34/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+356        </service>
+357
+358        <receiver
+358-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pangwei/.gradle/caches/transforms-3/e8752a27c0ea0af76d9f15f3e6321c34/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+359            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+359-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pangwei/.gradle/caches/transforms-3/e8752a27c0ea0af76d9f15f3e6321c34/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+360            android:exported="false" />
+360-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pangwei/.gradle/caches/transforms-3/e8752a27c0ea0af76d9f15f3e6321c34/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+361    </application>
+362
+363</manifest>

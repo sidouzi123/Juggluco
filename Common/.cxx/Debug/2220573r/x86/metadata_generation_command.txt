@@ -1,0 +1,20 @@
+                        -H/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=26
+-DANDROID_PLATFORM=android-26
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/Users/pangwei/Library/Android/sdk/ndk/26.3.11579264
+-DCMAKE_ANDROID_NDK=/Users/pangwei/Library/Android/sdk/ndk/26.3.11579264
+-DCMAKE_TOOLCHAIN_FILE=/Users/pangwei/Library/Android/sdk/ndk/26.3.11579264/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/pangwei/Library/Android/sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_CXX_FLAGS= -DAPPID=\"tk.glucodata\"    -DAPPVERSION=\"null\"    -DAPPVERSION=\"null\"  -DLIBRE3=1  -std=c++2b -DDEBUG=1 -DSCANLOG=1 -DAPPSUFFIX=\".debug\" -DNDK_DEBUG=1 -UNDEBUG
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/pangwei/AndroidStudioProjects/Juggluco/Common/build/intermediates/cxx/Debug/2220573r/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/pangwei/AndroidStudioProjects/Juggluco/Common/build/intermediates/cxx/Debug/2220573r/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-B/Users/pangwei/AndroidStudioProjects/Juggluco/Common/.cxx/Debug/2220573r/x86
+-GNinja
+-Dlibre3=TRUE
+                        Build command args: []
+                        Version: 2

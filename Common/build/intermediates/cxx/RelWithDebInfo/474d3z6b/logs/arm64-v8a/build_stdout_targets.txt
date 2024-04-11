@@ -1,0 +1,171 @@
+ninja: Entering directory `/Users/pangwei/AndroidStudioProjects/Juggluco/Common/.cxx/RelWithDebInfo/474d3z6b/arm64-v8a'
+[1/83] Building CXX object CMakeFiles/g.dir/curve/zhjugglucotext.cpp.o
+[2/83] Building CXX object CMakeFiles/g.dir/curve/bejugglucotext.cpp.o
+[3/83] Building CXX object CMakeFiles/g.dir/curve/ukjugglucotext.cpp.o
+[4/83] Building CXX object CMakeFiles/g.dir/curve/pljugglucotext.cpp.o
+[5/83] Building CXX object CMakeFiles/g.dir/curve/esjugglucotext.cpp.o
+[6/83] Building CXX object CMakeFiles/g.dir/curve/ptjugglucotext.cpp.o
+[7/83] Building CXX object CMakeFiles/g.dir/curve/frjugglucotext.cpp.o
+[8/83] Building C object CMakeFiles/g.dir/bcrypt/aes_encrypt.c.o
+[9/83] Building CXX object CMakeFiles/g.dir/bcrypt/bcrypt.cpp.o
+[10/83] Building C object CMakeFiles/g.dir/bcrypt/ccm_mode.c.o
+[11/83] Building C object CMakeFiles/g.dir/bcrypt/utils.c.o
+[12/83] Building CXX object CMakeFiles/g.dir/removeoldstates.cpp.o
+[13/83] Building CXX object CMakeFiles/g.dir/settings/exception.cpp.o
+[14/83] Building CXX object CMakeFiles/g.dir/curve/nljugglucotext.cpp.o
+[15/83] Building CXX object CMakeFiles/g.dir/curve/dejugglucotext.cpp.o
+[16/83] Building CXX object CMakeFiles/g.dir/curve/jugglucotext.cpp.o
+[17/83] Building CXX object CMakeFiles/libnative.so.dir/abbotttest.cpp.o
+[18/83] Building CXX object CMakeFiles/g.dir/watch/watchvalue.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/watch/watchvalue.cpp:118:6: warning: unused variable 'len' [-Wunused-variable]
+        int len=getglucosestr(nonconvert,buf,maxbuf);
+            ^
+1 warning generated.
+[19/83] Building CXX object CMakeFiles/g.dir/dofirst.cpp.o
+[20/83] Building CXX object CMakeFiles/g.dir/net/libreview/putsensor.cpp.o
+[21/83] Building CXX object CMakeFiles/g.dir/prunestream.cpp.o
+[22/83] Building CXX object CMakeFiles/g.dir/watch/messages.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/watch/messages.cpp:265:6: warning: unused variable 'len' [-Wunused-variable]
+        int len=sprintf(buf, "tobluetooth %d %s",hostnr,sender?"S":"R");
+            ^
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/watch/messages.cpp:317:7: warning: unused variable 'len' [-Wunused-variable]
+                int len=sprintf(buf,"%d message %d",i,index);
+                    ^
+2 warnings generated.
+[23/83] Building CXX object CMakeFiles/g.dir/curve/itjugglucotext.cpp.o
+[24/83] Building CXX object CMakeFiles/g.dir/net/libreview/mkrealhistory.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/net/libreview/mkrealhistory.cpp:85:6: warning: unused variable 'startit' [-Wunused-variable]
+        int startit=iter;       
+            ^
+1 warning generated.
+[25/83] Building C object CMakeFiles/g.dir/LibAscon/src/ascon_aead_common.c.o
+[26/83] Building C object CMakeFiles/g.dir/LibAscon/src/ascon_buffering.c.o
+[27/83] Building C object CMakeFiles/g.dir/LibAscon/src/ascon_aead128a.c.o
+[28/83] Building CXX object CMakeFiles/g.dir/watch/netinfo.cpp.o
+[29/83] Building C object CMakeFiles/g.dir/LibAscon/src/ascon_permutations.c.o
+[30/83] Building CXX object CMakeFiles/g.dir/curve/javacurve.cpp.o
+[31/83] Building CXX object CMakeFiles/g.dir/share/getsockets.cpp.o
+[32/83] Building CXX object CMakeFiles/g.dir/share/hooks.cpp.o
+[33/83] Building CXX object CMakeFiles/g.dir/curve/percentile.cpp.o
+[34/83] Building CXX object CMakeFiles/g.dir/net/libreview/newlibre3.cpp.o
+[35/83] Building CXX object CMakeFiles/g.dir/glucose.cpp.o
+[36/83] Building CXX object CMakeFiles/g.dir/share/logs.cpp.o
+[37/83] Building CXX object CMakeFiles/g.dir/curve/shownums.cpp.o
+[38/83] Building CXX object CMakeFiles/g.dir/g.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/g.cpp:179:15: warning: unused variable 'tid' [-Wunused-variable]
+        pid_t tid=syscall(SYS_gettid);
+              ^
+1 warning generated.
+[39/83] Building CXX object CMakeFiles/g.dir/backupjava.cpp.o
+[40/83] Building CXX object CMakeFiles/g.dir/share/timestr.cpp.o
+[41/83] Building CXX object CMakeFiles/g.dir/logjava.cpp.o
+[42/83] Building CXX object CMakeFiles/g.dir/share/serial.cpp.o
+[43/83] Building CXX object CMakeFiles/g.dir/wearInt.cpp.o
+[44/83] Building CXX object CMakeFiles/g.dir/net/libreview/libreview.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/net/libreview/libreview.cpp:989:9: warning: unused variable 'status' [-Wunused-variable]
+                        auto status=librecondition.backupcond.wait_until(lck, now + std::chrono::minutes(waitmin));
+                             ^
+1 warning generated.
+[45/83] Building CXX object CMakeFiles/g.dir/scanstate.cpp.o
+[46/83] Building CXX object CMakeFiles/g.dir/share/nfcdata.cpp.o
+[47/83] Building CXX object CMakeFiles/g.dir/statedata.cpp.o
+[48/83] Building CXX object CMakeFiles/g.dir/share/savehistory.cpp.o
+[49/83] Building CXX object CMakeFiles/g.dir/foods/javabase.cpp.o
+[50/83] Building CXX object CMakeFiles/g.dir/jnisub.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/jnisub.cpp:1069:13: warning: unused variable 'res' [-Wunused-variable]
+                     jint res=OnLoad(getnewvm(),nullptr);
+                          ^
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/jnisub.cpp:1678:8: warning: unused variable 'res' [-Wunused-variable]
+                        int res=abbottcall(P1)(env,thiz,0,0,nullptr,nullptr,casttoken);
+                            ^
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/jnisub.cpp:1811:13: warning: unused variable 'uitlen' [-Wunused-variable]
+                const int uitlen= res->size();
+                          ^
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/jnisub.cpp:1766:6: warning: unused variable 'fam' [-Wunused-variable]
+        int fam= abbottcall(getProductFamily)(hiersubenv2, nullptr, parsertype,  (jbyteArray)  infoptr,casttoken);
+            ^
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/jnisub.cpp:1884:56: warning: static variable 'init' is suspiciously used within its own initialization [-Wstatic-self-init]
+static int init=(init=doabbottinit(doch),initptr=&init,init);
+           ~~~~                                        ^~~~
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/jnisub.cpp:1992:6: warning: unused variable '_deb' [-Wunused-variable]
+auto _deb=debugclone();
+     ^
+6 warnings generated.
+[51/83] Building CXX object CMakeFiles/g.dir/net/watchserver/common.cpp.o
+[52/83] Building CXX object CMakeFiles/g.dir/debugclone.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/debugclone.cpp:1047:14: warning: unused variable 'isbeforedebug' [-Wunused-variable]
+        static bool isbeforedebug=beforedebug();
+                    ^
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/debugclone.cpp:1342:56: warning: static variable 'wrong' is suspiciously used within its own initialization [-Wstatic-self-init]
+        static bool wrong=(wrong=needsdebug(),wrongptr=&wrong,wrong);
+                    ~~~~~                                     ^~~~~
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/debugclone.cpp:1376:8: warning: unused variable 'res' [-Wunused-variable]
+                        int res=syscall( __NR_ioprio_get,3,has_debugger);
+                            ^
+3 warnings generated.
+[53/83] Building CXX object CMakeFiles/g.dir/net/watchserver/sslserver.cpp.o
+[54/83] Building CXX object CMakeFiles/g.dir/curve/exports.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/curve/exports.cpp:498:7: warning: unused variable 'res' [-Wunused-variable]
+        bool res=sensorexports<ScanData>(handle,&SensorGlucoseData::streamInperiod, [ptr,&lasttime](myfilep fp,const int index,const ScanData *scan,const int sens,const ScanData *beg) {
+             ^
+1 warning generated.
+[55/83] Building CXX object CMakeFiles/g.dir/net/netstuff.cpp.o
+[56/83] Building CXX object CMakeFiles/g.dir/settings/settings.cpp.o
+[57/83] Building CXX object CMakeFiles/g.dir/settings/javasettings.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/settings/javasettings.cpp:1441:11: warning: unused variable 'lasttime' [-Wunused-variable]
+                        time_t lasttime= prehit->lasttime;
+                               ^
+1 warning generated.
+[58/83] Building CXX object CMakeFiles/g.dir/net/watchserver/uploadtreatment.cpp.o
+[59/83] Building CXX object CMakeFiles/g.dir/net/sender.cpp.o
+[60/83] Building CXX object CMakeFiles/g.dir/net/watchserver/iob.cpp.o
+[61/83] Building CXX object CMakeFiles/g.dir/net/backup.cpp.o
+[62/83] Building CXX object CMakeFiles/g.dir/net/sendcommands.cpp.o
+[63/83] Building CXX object CMakeFiles/g.dir/net/watchserver/uploader.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/net/watchserver/uploader.cpp:350:9: warning: unused variable 'status' [-Wunused-variable]
+                        auto status=uploadercondition.backupcond.wait_until(lck, now + std::chrono::minutes(waitmin));
+                             ^
+1 warning generated.
+[64/83] Building CXX object CMakeFiles/g.dir/mirrorstatus.cpp.o
+[65/83] Building CXX object CMakeFiles/g.dir/net/getcommand.cpp.o
+[66/83] Building CXX object CMakeFiles/g.dir/nums/numjava.cpp.o
+[67/83] Building CXX object CMakeFiles/g.dir/meal/mealjava.cpp.o
+[68/83] Building CXX object CMakeFiles/g.dir/curve/iwjugglucotext.cpp.o
+[69/83] Building CXX object CMakeFiles/g.dir/meal/savemeals.cpp.o
+[70/83] Building CXX object CMakeFiles/g.dir/nums/numdata.cpp.o
+[71/83] Building CXX object CMakeFiles/g.dir/libre3/nfc.cpp.o
+[72/83] Building CXX object CMakeFiles/g.dir/net/watchserver/watchserver.cpp.o
+[73/83] Building CXX object CMakeFiles/g.dir/curve/rujugglucotext.cpp.o
+[74/83] Building CXX object CMakeFiles/g.dir/datbackup.cpp.o
+[75/83] Building CXX object CMakeFiles/g.dir/libre3/bluetooth.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/libre3/bluetooth.cpp:485:2: warning: non-void function does not return a value [-Wreturn-type]
+        }
+        ^
+1 warning generated.
+[76/83] Building CXX object CMakeFiles/g.dir/libre3/loadlibs.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/libre3/loadlibs.cpp:292:6: warning: unused variable 'load' [-Wunused-variable]
+        int load=loadECDHCrypto(changelib);
+            ^
+1 warning generated.
+[77/83] Building C object CMakeFiles/g.dir/curve/nanovg/src/nanovg.c.o
+[78/83] Building CXX object CMakeFiles/g.dir/sibionics/process.cpp.o
+[79/83] Building CXX object CMakeFiles/g.dir/sibionics/makeWriteCharacter.cpp.o
+[80/83] Building CXX object CMakeFiles/g.dir/sibionics/start.cpp.o
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/sibionics/start.cpp:263:10: warning: unused variable 'res' [-Wunused-variable]
+     int res=setjson(nati,json.data());
+         ^
+1 warning generated.
+[81/83] Building CXX object CMakeFiles/g.dir/curve/curve.cpp.o
+In file included from /Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/curve/curve.cpp:700:
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/curve/numdisplayfuncs.h:206:13: warning: unused variable 'tim' [-Wunused-variable]
+                                        time_t tim=it->time;
+                                               ^
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/curve/curve.cpp:1031:9: warning: unused variable 'tim' [-Wunused-variable]
+        time_t tim=sent;
+               ^
+/Users/pangwei/AndroidStudioProjects/Juggluco/Common/src/main/cpp/curve/curve.cpp:3301:6: warning: unused variable 'len' [-Wunused-variable]
+        int len=largepausedaystr(num->gettime(),ptr);
+            ^
+3 warnings generated.
+[82/83] Linking CXX shared library /Users/pangwei/AndroidStudioProjects/Juggluco/Common/build/intermediates/cxx/RelWithDebInfo/474d3z6b/obj/arm64-v8a/libg.so
+[83/83] Linking CXX executable /Users/pangwei/AndroidStudioProjects/Juggluco/Common/build/intermediates/cxx/RelWithDebInfo/474d3z6b/obj/arm64-v8a/libnative.so
